@@ -28,7 +28,8 @@ twitter_username: renejoy
 github_username:  slacanilao-tip
 
 # Build settings
-theme: minima
+# Removed minima theme
+# theme: minima
 plugins:
   - jekyll-feed
 
