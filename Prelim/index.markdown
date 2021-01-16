@@ -4,4 +4,5 @@
 
 layout: home
 title: "Prelim"
+category: Activities
 ---
