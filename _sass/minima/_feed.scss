@@ -1,3 +1,19 @@
 .feed .feed-card {
     display: grid;
+    grid-template-columns: 425px 1fr;
+    grid-template-rows: 95px;
+    column-gap: 10px;
+    margin-top: 50px;
+    border-top: lightgray;
+    border-width: 2px;
+    border-top-style: solid;
+
+    .card-content{
+        display: grid;
+        grid-template-columns: min-content auto min-content;
+        grid-template-areas: 
+            "title"
+            "excerpt"
+            "date";
+    }
 }

@@ -27,6 +27,8 @@ url: "https://github.com/slacanilao-tip/slacanilao-tip.github.io" # the base hos
 github_username:  slacanilao-tip
 twitter_username: renejoy
 
+#excerpt firt sentence
+excerpt_separator: .
 # Author
 author: Samuel Lacanilao
 
