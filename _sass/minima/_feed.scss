@@ -1,6 +1,6 @@
 .feed .feed-card {
     display: grid;
-    grid-template-columns: 425px 1fr;
+    grid-template-columns: 115px 1fr;
     grid-template-rows: 95px;
     column-gap: 10px;
     margin-top: 50px;
@@ -15,5 +15,10 @@
             "title"
             "excerpt"
             "date";
+    }
+
+    .card-title {
+        grid-area: title;
+        align-content: start;
     }
 }
