@@ -3,6 +3,7 @@ layout: post
 title:  "Hands-on Midterm Exam"
 date:   2021-01-16 22:57:58 +0800
 category: Midterm
+image: /assets/midterm/Mexam.png
 ---
 1. Fork this repository https://github.com/ajcanlas-tip/sysad2-12021.git (Links to an external site.)
 
