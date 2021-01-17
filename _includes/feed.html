@@ -1,0 +1,17 @@
+<section class="feed">
+    {%- assign feedPosts = site.posts | where: 'categories', feedType -%}
+    {%- for post in feedPosts -%}
+    <div class="feed-card">
+        <div class="card-image">
+            {%- assign postImage = post.image | relative_url -%}
+            {%- if postImage -%}
+                <img src="{{postImage}}" alt="" class="title-image">
+            {%- else -%}
+            {%- assign postImage = "/assets/TIPlogo.png" | relative_url -%}
+                <img src="{{postImage}}" alt="" class="title-image">
+            {%- endif -%}
+        </div>
+
+    </div>
+    {%- endfor -%}
+</section>

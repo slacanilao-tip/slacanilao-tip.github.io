@@ -11,4 +11,9 @@ layout: default
     {{ content }}
   </div>
 
+  {%- assign feedType = page.feed-type -%}
+  {%- if feedType == "prelim" or feedType == "midterm"-%}
+    {%- include feed.html -%}
+  {%- endif -%}
+
 </article>
