@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Prelim
-feed-type: prelim
+feed-type: Prelim
 permalink: /feed/Prelim
 ---
 
-This is a prelim
+This is prelim

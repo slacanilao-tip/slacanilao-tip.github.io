@@ -1,5 +1,5 @@
 <section class="feed">
-    {%- assign feedPosts = site.posts | where: 'categories', feedType -%}
+    {%- assign feedPosts = site.posts | where: 'category', feedType -%}
     {%- for post in feedPosts -%}
     <div class="feed-card">
         <div class="card-image">
@@ -11,7 +11,20 @@
                 <img src="{{postImage}}" alt="" class="title-image">
             {%- endif -%}
         </div>
-
+        <div class="card-content">
+            <div class="card-title">
+                {%- assign postTitle = post.title | escape -%}
+                <span class="title">{{postTitle}}</span>
+            </div>
+            <div class="excerpt">
+                {%- assign postExcerpt = post.excerpt | strip_html | escape -%}
+                <span class="excerpt">{{postExcerpt}}</span>
+            </div>
+            <div class="card-date">
+                {%- assign postDate = post.date |date: "%b %d, %Y" -%}
+                <span class="date">{{postDate}}</span>
+            </div>
+        </div>
     </div>
     {%- endfor -%}
 </section>

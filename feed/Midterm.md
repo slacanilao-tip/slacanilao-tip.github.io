@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Midterm
-feed-type: midterm
+feed-type: Midterm
 permalink: /feed/Midterm
 ---
 
-This is a midterm
+This is midterm
