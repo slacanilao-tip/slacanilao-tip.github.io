@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title:  "Hands-on Prelim Exam"
 date:   2021-01-16 22:40:58 +0800
 category: Prelim
