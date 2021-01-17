@@ -10,8 +10,18 @@ layout: default
   <div class="post-content">
     {{ content }}
   </div>
-
+  <h2>Featured Post</h2>
   {%- assign feedType = page.feed-type -%}
+  {%- assign displayOffset = 0 -%}
+  {%- assign displayLimit = 1 -%}
+  {%- if feedType == "Prelim" or feedType == "Midterm" or feedType == "Finals"-%}
+    {% include feed.html %}
+  {%- endif -%}
+
+  <h2>Post</h2>
+  {%- assign feedType = page.feed-type -%}
+  {%- assign displayOffset = 0 -%}
+  {%- assign displayLimit = null -%}
   {%- if feedType == "Prelim" or feedType == "Midterm" or feedType == "Finals"-%}
     {% include feed.html %}
   {%- endif -%}
