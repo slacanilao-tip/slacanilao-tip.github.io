@@ -12,7 +12,7 @@ layout: default
   </div>
 
   {%- assign feedType = page.feed-type -%}
-  {%- if feedType == "Prelim" or feedType == "Midterm"-%}
+  {%- if feedType == "Prelim" or feedType == "Midterm" or feedType == "Finals"-%}
     {% include feed.html %}
   {%- endif -%}
 
