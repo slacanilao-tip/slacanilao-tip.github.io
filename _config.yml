@@ -21,11 +21,11 @@
 title: Portfolio for CPE232
 email: qsmlacanilao@tip.edu.ph
 description: >- # this means to ignore newlines until "baseurl:"
- Welcome to my portfolio.... parampampam
+ Created by samuellacanilao
 baseurl: "/slacanilao-tip.github.io" # the subpath of your site, e.g. /blog
 url: "https://github.com/slacanilao-tip/slacanilao-tip.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  slacanilao-tip
-twitter_username: renejoy
+twitter_username: samuellacanilao
 
 #excerpt firt sentence
 excerpt_separator: .

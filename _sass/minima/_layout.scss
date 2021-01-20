@@ -12,8 +12,8 @@
 
 .site-title {
   @include relative-font-size(1.625);
-  color: darkgrey;
-  &:link {color: darkgrey;}
+  color: #008B8B;
+  &:link {color: #008B8B;}
   &:hover {color: white}
 
   font-weight: 500;
@@ -24,7 +24,7 @@
 
   &,
   &:visited {
-    color: darkgrey;
+    color: #008B8B;
   }
 }
 
@@ -41,7 +41,7 @@
   }
 
   .page-link {
-    color: darkgrey;
+    color: #008B8B;
     line-height: $base-line-height;
 
     // Gaps between nav items, but not on the last one
