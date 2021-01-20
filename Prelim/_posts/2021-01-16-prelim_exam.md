@@ -39,3 +39,74 @@ Follow procedure:
 6. Request a pull request from that branch in GitHub
 
 7. For your prelim exam to be counted, please paste your repository link as an answer in this exam.
+
+Output:  
+https://github.com/slacanilao-tip/sysad2-12021/tree/prelim-exam  
+.  
+├── Inventory  
+├── README.md  
+├── ansible.cfg  
+├── config.yml  
+├── roles  
+│   ├── create_user  
+│   │   ├── README.md  
+│   │   ├── defaults  
+│   │   │   └── main.yml  
+│   │   ├── handlers  
+│   │   │   └── main.yml  
+│   │   ├── meta  
+│   │   │   └── main.yml  
+│   │   ├── tasks  
+│   │   │   └── main.yml  
+│   │   ├── tests  
+│   │   │   ├── inventory  
+│   │   │   └── test.yml  
+│   │   └── vars  
+│   │       └── main.yml  
+│   ├── java  
+│   │   ├── README.md  
+│   │   ├── defaults  
+│   │   │   └── main.yml  
+│   │   ├── handlers  
+│   │   │   └── main.yml  
+│   │   ├── meta  
+│   │   │   └── main.yml  
+│   │   ├── tasks  
+│   │   │   └── main.yml  
+│   │   ├── tests  
+│   │   │   ├── inventory  
+│   │   │   └── test.yml  
+│   │   └── vars  
+│   │       └── main.yml  
+│   ├── motd  
+│   │   ├── README.md  
+│   │   ├── defaults  
+│   │   │   └── main.yml  
+│   │   ├── handlers  
+│   │   │   └── main.yml  
+│   │   ├── meta  
+│   │   │   └── main.yml  
+│   │   ├── tasks  
+│   │   │   └── main.yml  
+│   │   ├── tests  
+│   │   │   ├── inventory  
+│   │   │   └── test.yml  
+│   │   └── vars  
+│   │       └── main.yml  
+│   └── py3_pip  
+│       ├── README.md  
+│       ├── defaults  
+│       │   └── main.yml  
+│       ├── handlers  
+│       │   └── main.yml  
+│       ├── meta  
+│       │   └── main.yml  
+│       ├── tasks  
+│       │   └── main.yml  
+│       ├── tests  
+│       │   ├── inventory  
+│       │   └── test.yml  
+│       └── vars  
+│           └── main.yml  
+└── variables  
+    └── vars  
