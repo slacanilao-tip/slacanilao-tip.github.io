@@ -41,7 +41,7 @@ Follow procedure:
 7. For your prelim exam to be counted, please paste your repository link as an answer in this exam.
 
 Output:  
-https://github.com/slacanilao-tip/sysad2-12021/tree/prelim-exam  
+[https://github.com/slacanilao-tip/sysad2-12021/tree/prelim-exam](https://github.com/slacanilao-tip/sysad2-12021/tree/prelim-exam)  
 .  
 ├── Inventory  
 ├── README.md  

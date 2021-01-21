@@ -28,7 +28,7 @@ image: /assets/midterm/Mexam.png
 7. For your midterm exam to be counted, please paste your repository link as an answer in this exam.
 
 Output:  
-https://github.com/slacanilao-tip/sysad2-12021/tree/midterm-exam/1811597/midterm-exam  
+[https://github.com/slacanilao-tip/sysad2-12021/tree/midterm-exam/1811597/midterm-exam](https://github.com/slacanilao-tip/sysad2-12021/tree/midterm-exam/1811597/midterm-exam)  
 .  
 ├── Inventory  
 ├── README.md  
