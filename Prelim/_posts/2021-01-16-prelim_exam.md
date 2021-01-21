@@ -42,6 +42,7 @@ Follow procedure:
 
 Output:  
 [https://github.com/slacanilao-tip/sysad2-12021/tree/prelim-exam](https://github.com/slacanilao-tip/sysad2-12021/tree/prelim-exam)  
+```
 .  
 ├── Inventory  
 ├── README.md  
@@ -110,3 +111,4 @@ Output:
 │           └── main.yml  
 └── variables  
     └── vars  
+```

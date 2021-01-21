@@ -29,6 +29,7 @@ image: /assets/midterm/Mexam.png
 
 Output:  
 [https://github.com/slacanilao-tip/sysad2-12021/tree/midterm-exam/1811597/midterm-exam](https://github.com/slacanilao-tip/sysad2-12021/tree/midterm-exam/1811597/midterm-exam)  
+```
 .  
 ├── Inventory  
 ├── README.md  
@@ -169,3 +170,4 @@ Output:
 │           └── vars  
 │               └── main.yml  
 └── tree.md   
+```
